@@ -1,0 +1,15 @@
+1                   ; boundary condition along x. 0: periodic, 1: open
+0.5                 ; cfl
+10                  ; Tmax
+0.1                 ; dtOut
+512                 ; nx
+256                 ; ny 
+2.0                 ; Lx
+4.0                 ; Ly
+1.666666667         ; adiabatic_index
+0                   ; Hall effect 0: off; 1: on
+0.002               ; normalized ion inertial length di
+1e-4                ; resistivity
+0                   ; viscosity
+0                   ; divB cleaning method: 0: none; 1: diffusion
+1                   ; whether output divB: 0: no; 1: yes
